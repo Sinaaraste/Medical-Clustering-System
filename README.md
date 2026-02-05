@@ -63,21 +63,23 @@ Divisive Analysis starts with the entire population as one cluster and iterative
 
 
 2.  **Create a Virtual Environment:**
+    ```bash
 
-
-    python -m venv ml_env  # On Linux/macOS
+    python -m venv ml_env    # On Linux/macOS
     source ml_env/bin/activate
   
 
 
-    python -m venv ml_env  # On Windows
+    python -m venv ml_env     # On Windows
     .\ml_env\Scripts\activate  
 
 
 3. **Install Dependencies:**
+   ```bash
 
     pip install -r requirements.txt
 
 4. **Launch the Application:**
+   ```bash
 
     streamlit run index.py
