@@ -57,20 +57,22 @@ Divisive Analysis starts with the entire population as one cluster and iterative
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Medical-Clustering-System.git
+   git clone https://github.com/Sinaaraste/Medical-Clustering-System.git
 
    cd Medical-Clustering-System
 
 
 2.  **Create a Virtual Environment:**
 
-# On Linux/macOS
-    python -m venv ml_env 
-    source ml_env/bin/activate  
 
-# On Windows
-    python -m venv ml_env  
+    python -m venv ml_env  # On Linux/macOS
+    source ml_env/bin/activate
+  
+
+
+    python -m venv ml_env  # On Windows
     .\ml_env\Scripts\activate  
+
 
 3. **Install Dependencies:**
 
