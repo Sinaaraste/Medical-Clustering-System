@@ -72,14 +72,15 @@ Divisive Analysis starts with the entire population as one cluster and iterative
 
     python -m venv ml_env     # On Windows
     .\ml_env\Scripts\activate  
-
+```
 
 3. **Install Dependencies:**
    ```bash
 
     pip install -r requirements.txt
-
+```
 4. **Launch the Application:**
    ```bash
 
     streamlit run index.py
+```
